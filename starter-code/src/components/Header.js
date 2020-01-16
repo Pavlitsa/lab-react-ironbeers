@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Home from "./Home";
+// import Home from "./Home";
 import { Link } from "react-router-dom";
 
 class Header extends Component {
@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <div>
         <Link to="/">
-          <h1>&#127968;</h1>
+          <span role="img" aria-label="house">&#127968;</span>
         </Link>
       </div>
     );
